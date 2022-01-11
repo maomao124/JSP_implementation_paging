@@ -44,7 +44,7 @@
     for (int i = 1; i <= p.getTotalPageCount(); i++)
     {
 %>
-<a href="hello.jsp?page=<%=  i%>"><%=  i%>
+<a href="hello.jsp?page=<%=i%>"><%=i%>
 </a>
 <%
     }
